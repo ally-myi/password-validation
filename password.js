@@ -5,7 +5,7 @@
   //we need to create a variable that holds the checks for the code
   // this is is like a look-ahead which basically compares the returned with the future part of the string
     var re = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}$/; 
-  // the /d is shrt for [0-9] taht helps identofy if there is at leats one number.
+  // the /d is short for [0-9] taht helps identofy if there is at least one number.
   //the [a-z] checks for at least one lowercase letter
   // the [A-Z] checks for at least one uppercase letter
   // the .{10,}$/ checks for there to be 10 or more characters input
