@@ -25,7 +25,4 @@
       form.pwd1.focus();
       return true;
     }
-    return true;
-  }
-
 </script>
