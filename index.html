@@ -1,18 +1,17 @@
 <!DOCTYPE html>
+<header> Password validation</header>
 <body>
-<p>Click the button to enter passowrd</p>
+  <h1 style="text-align: center";> Password Validation</h1>
+   <p style="text-align: center";>  Requierements for password</p>
+    <ul>
+      <li>Length must be greater than or equal to 10 chracters</li>
+      <li>Should have at least 1 number</li>
+      <li>Should contain one uppercase letter</li>
+      <li>Should contain one lowercase letter</li>
+    </ul>
+<form method="POST" action="..." onsubmit="return checkForm(this);">
+<p>Password: <input type="password" name="pwd1"></p>
+<p><input type="submit"></p>
+</form>
 
-<button onclick="myFunction()">enter password</button>
 
-<p id="password"></p>
-</body>
-
-<script>
-function myFunction() {
-  var password = prompt("Please enter your password", "<password goes here>");
-  if (person != null) {
-    document.getElementById("password").innerHTML =
-    "Your pasword is" + person + " Welcome!";
-  }
-}
-</script>
