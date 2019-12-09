@@ -1,4 +1,4 @@
-<script type="text/javascript">
+<script>
 
   function checkPassword(str) //this is the function that will be called later on to check the submitted password
   {
